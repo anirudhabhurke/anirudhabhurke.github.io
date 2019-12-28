@@ -403,4 +403,7 @@ footer h3 span {
       .column__content {
             font-size: 1em;
       }
+      #particles-js {
+            height: 110vh;
+      }
 }
