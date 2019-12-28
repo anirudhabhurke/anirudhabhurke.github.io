@@ -264,7 +264,6 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-
 }
 form {
       display: flex;
@@ -405,5 +404,8 @@ footer h3 span {
       }
       .main-content #particles-js{
             height: 110vh;
+      }
+      .down-btn {
+            display: none;
       }
 }
