@@ -390,6 +390,11 @@ footer h3 span {
       }
 }
 
-@media screen and (max-width: 320px) {
-
+@media screen and (max-width: 480px) {
+      .title-name {
+            font-size: 2em;
+      }
+      .subtitle {
+            font-size: 1em;
+      }
 }
