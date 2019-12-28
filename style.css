@@ -397,4 +397,10 @@ footer h3 span {
       .subtitle {
             font-size: 1em;
       }
+      .column__title {
+            font-size: 2.2em;
+      }
+      .column__content {
+            font-size: 1.4em;
+      }
 }
