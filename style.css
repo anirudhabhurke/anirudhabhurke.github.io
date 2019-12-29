@@ -19,7 +19,7 @@ body {
       display: flex;
       width: 100%;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: space-around;
       z-index: 1;
       position: relative;
 }
@@ -101,8 +101,8 @@ body {
 
 .fa {
       padding: 10px;
-      font-size: 25px;
-      width: 50px;
+      font-size: 40px;
+      /* width: 50px; */
       text-align: center;
       text-decoration: none;
       border-radius: 50%;
@@ -238,6 +238,7 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      text-align: center;
 }
 
 .column__title {
@@ -333,6 +334,7 @@ footer h3 span {
       .main-content {
             /* height: 32em; */
             flex-direction: column-reverse;
+            justify-content: center;
             text-align: center;
             padding: 20px;
       }
@@ -394,10 +396,13 @@ footer h3 span {
             font-size: 2em;
       }
       .subtitle {
-            font-size: 1em;
+            font-size: 0.9em;
+      }
+      .column2 {
+            padding: 0px 10px;
       }
       .column__title {
-            font-size: 2em;
+            font-size: 1.5em;
       }
       .column__content {
             font-size: 1em;
@@ -406,6 +411,18 @@ footer h3 span {
             height: 110vh;
       }
       .down-btn {
-            display: none;
+            /* display: none; */
+      }
+      footer h3 {
+            font-size: 1em;
+      }
+      .git-btn {
+            font-size: 16px;
+      }
+      .contact-link {
+            font-size: 16px;
+      }
+      .work-row {
+            height: 18em;
       }
 }
