@@ -76,10 +76,10 @@ body {
 }
 
 .git-btn {
-      background-color: #183D93;
+      background-color: rgba(41, 82, 216, 0.6);
       color: #dee8e9;
       text-decoration: none;
-      padding: 0px 16px 0px 0px;
+      padding: 0px 8px 0px 0px;
       margin: 0px 0px 10px 0px;
       font-size: 20px;
       cursor: pointer;
@@ -89,14 +89,14 @@ body {
 }
 
 .git-btn:hover {
-      background-color: #2658B7;
+      background-color: rgba(41, 82, 216, 0.4);
+      ;
       color: #dee8e9;
 }
 
 .fa {
       padding: 10px;
       font-size: 40px;
-      /* width: 50px; */
       text-align: center;
       text-decoration: none;
       border-radius: 50%;
@@ -136,7 +136,7 @@ body {
       font-size: 1.15em;
       font-style: italic;
       margin: 30px auto 10px;
-      padding: 25px ;
+      padding: 25px;
       border: 1px solid #BCAAA4;
       box-sizing: border-box;
       border-left-width: 10px;
@@ -254,12 +254,14 @@ body {
       text-decoration: none;
       align-self: center;
 }
+
 #contact {
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
 }
+
 form {
       display: flex;
       flex-direction: column;
@@ -270,20 +272,23 @@ form {
       height: 26em;
 }
 
-input[type=email], textarea {
+input[type=email],
+textarea {
       width: 80%;
       padding: 10px;
       border-radius: 5px;
       resize: vertical;
       outline: none;
+      border: 0px solid white;
       background-color: #e8faf6;
-      border: 0px solid rgb(11, 109, 86);
       font-family: "Open Sans", sans-serif;
       box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
+
 textarea {
       height: 12em;
 }
+
 .submitbtn {
       background-color: #006E9E;
       color: #dee8e9;
@@ -296,23 +301,28 @@ textarea {
       outline: none;
       box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
+
 .submitbtn:hover {
-      background-color: #1f8b72;
+      background-color: rgba(0, 110, 158, 0.9);
 }
+
 .contact-link {
       color: #dee8e9;
       text-decoration: none;
-      padding: 8px 16px;
+      padding: 7px 16px;
       margin: 0px 10px;
       font-size: 20px;
       cursor: pointer;
       border-radius: 5px;
       outline: none;
+      background-color: rgba(234, 240, 241, 0.1);
 }
+
 footer {
       text-align: center;
       padding: 10px;
 }
+
 footer h3 span {
       color: #4E342E;
 }
@@ -373,12 +383,15 @@ footer h3 span {
             border-radius: 10px;
             border: 3px solid #b0d2cb;
       }
+
       .column__title {
             font-size: 2.2em;
       }
+
       .column__content {
             font-size: 1.4em;
       }
+
       form {
             width: 100%;
       }
@@ -388,33 +401,43 @@ footer h3 span {
       .title-name {
             font-size: 2em;
       }
+
       .subtitle {
             font-size: 0.9em;
       }
+
       .column2 {
             padding: 0px 10px;
       }
+
       .column__title {
             font-size: 1.5em;
       }
+
       .column__content {
             font-size: 1em;
       }
-      .main-content #particles-js{
+
+      .main-content #particles-js {
             height: 110vh;
       }
+
       .down-btn {
             display: none;
       }
+
       footer h3 {
             font-size: 1em;
       }
+
       .git-btn {
             font-size: 16px;
       }
+
       .contact-link {
             font-size: 16px;
       }
+
       .work-row {
             height: 18em;
       }
