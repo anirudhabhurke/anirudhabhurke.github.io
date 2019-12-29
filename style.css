@@ -411,7 +411,7 @@ footer h3 span {
             height: 110vh;
       }
       .down-btn {
-            /* display: none; */
+            display: none;
       }
       footer h3 {
             font-size: 1em;
