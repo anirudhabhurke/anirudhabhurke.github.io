@@ -184,7 +184,7 @@ body {
 }
 
 .card-container {
-      border: 2px solid #BCAAA4;
+      border: 0px solid #BCAAA4;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -194,7 +194,10 @@ body {
       text-align: center;
       flex-wrap: wrap;
       flex-basis: 10px;
-      border-radius: 10px;
+      border-radius: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+      background-color: #6D4C41;
+      color: white;
 }
 
 .work-container {
