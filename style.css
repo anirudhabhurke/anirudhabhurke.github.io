@@ -90,7 +90,6 @@ body {
 
 .git-btn:hover {
       background-color: rgba(41, 82, 216, 0.4);
-      ;
       color: #dee8e9;
 }
 
@@ -187,17 +186,29 @@ body {
       border: 0px solid #BCAAA4;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px 5px 20px;
+      /* padding: 10px 20px 5px 20px; */
       margin: 10px 40px 20px 40px;
       text-align: center;
       flex-wrap: wrap;
       flex-basis: 10px;
       border-radius: 15px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
-      background-color: #6D4C41;
-      color: white;
+      background-color: #E0E0E0;
+}
+.card-container:hover {
+      box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+}
+.icon-container {
+      width: 100%;
+      background-color: #EEEEEE;
+      padding: 30px 10px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+}
+.text-container {
+      align-self: flex-end;
 }
 
 .work-container {
@@ -371,7 +382,7 @@ footer h3 span {
       }
 
       .card-container {
-            margin: 10px 5px 10px 5px;
+            margin: 10px 10px 10px 10px;
       }
       .card-container img {
             height: 120px;
