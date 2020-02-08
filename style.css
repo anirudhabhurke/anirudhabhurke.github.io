@@ -29,7 +29,7 @@ body {
       height: 100vh;
       position: absolute;
       /* background-color: #4E342E */
-      background-color: #2c3e50
+      background-color: #222831
 }
 
 .title-name {
@@ -76,7 +76,7 @@ body {
 .image-container {
       overflow: hidden;
       border-radius: 50%;
-      box-shadow: 0 0 10px 0 orange;
+      box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.3);
 }
 
 .git-btn {
