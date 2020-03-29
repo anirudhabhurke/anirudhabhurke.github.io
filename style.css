@@ -109,7 +109,8 @@ body {
 
 .fa-facebook {
       background: #3b5998;
-      border: 2px solid #b0d2cb
+      border: 2px solid #b0d2cb;
+      padding: 10px 15px;
 }
 
 .fa-twitter {
