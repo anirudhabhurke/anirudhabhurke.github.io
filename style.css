@@ -28,44 +28,41 @@ body {
       width: 100%;
       height: 100vh;
       position: absolute;
-      /* background-color: #4E342E */
-      background-color: #222831
+      background: url(assets/img/coder-background.jpg) no-repeat center center fixed;
+      background-size: cover;
 }
 
 .title-name {
       font-size: 3em;
       color: #dee8e9;
-      letter-spacing: .09em;
+      letter-spacing: 0.09em;
 }
 
 .subtitle {
       overflow: hidden;
       color: #dee8e9;
-      border-right: .15em solid orange;
+      border-right: 0.15em solid orange;
       white-space: nowrap;
       margin: 100 auto;
-      letter-spacing: .10em;
-      animation:
-            typing 3.5s steps(40, end),
-            blink-caret .75s step-end infinite;
+      letter-spacing: 0.1em;
+      animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
       from {
-            width: 0
+            width: 0;
       }
 
       to {
-            width: 100%
+            width: 100%;
       }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-
       from,
       to {
-            border-color: transparent
+            border-color: transparent;
       }
 
       50% {
@@ -76,7 +73,6 @@ body {
 .image-container {
       overflow: hidden;
       border-radius: 50%;
-      box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.3);
 }
 
 .git-btn {
@@ -99,7 +95,7 @@ body {
 
 .fa {
       padding: 10px;
-      font-size: 25px;
+      font-size: 20px;
       text-align: center;
       text-decoration: none;
       border-radius: 50%;
@@ -115,21 +111,21 @@ body {
 
 .fa-twitter {
       background: #55acee;
-      border: 2px solid #b0d2cb
+      border: 2px solid #b0d2cb;
 }
 
 .fa-linkedin {
       background: #007bb5;
-      border: 2px solid #b0d2cb
+      border: 2px solid #b0d2cb;
 }
 
 .fa-instagram {
       background: #125688;
-      border: 2px solid #b0d2cb
+      border: 2px solid #b0d2cb;
 }
 
 .zoom {
-      transition: transform .4s;
+      transition: transform 0.4s;
 }
 
 .zoom:hover {
@@ -148,7 +144,7 @@ body {
 }
 
 .main__blockquote::before {
-      content: "\201c";
+      content: '\201c';
       font-size: 100px;
       color: #2c3e50;
       margin: 0px 0px;
@@ -181,15 +177,15 @@ body {
 }
 
 .separator::before {
-      margin-right: .25em;
+      margin-right: 0.25em;
 }
 
 .separator::after {
-      margin-left: .25em;
+      margin-left: 0.25em;
 }
 
 .card-container {
-      border: 0px solid #BCAAA4;
+      border: 0px solid #bcaaa4;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -199,12 +195,12 @@ body {
       flex-wrap: wrap;
       flex-basis: 10px;
       border-radius: 15px;
-      box-shadow: 0px 1.6px 3.6px rgba(0,0,0,0.13908558841119492), 0px 0px 2.9px rgba(0,0,0,0.1176878055787034);
+      box-shadow: 0px 1.6px 3.6px rgba(0, 0, 0, 0.13908558841119492), 0px 0px 2.9px rgba(0, 0, 0, 0.1176878055787034);
       transition: box-shadow 0.2s ease-in-out;
-      background-color: #E0E0E0;
+      background-color: #e0e0e0;
 }
 .card-container:hover {
-      box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .icon-container {
       width: 100%;
@@ -253,7 +249,7 @@ body {
 
 .column__title {
       font-size: 2.5em;
-      color: #2c3e50
+      color: #2c3e50;
 }
 
 .column__content {
@@ -288,7 +284,7 @@ form {
       height: 26em;
 }
 
-input[type=email],
+input[type='email'],
 textarea {
       width: 80%;
       padding: 10px;
@@ -297,8 +293,8 @@ textarea {
       outline: none;
       border: 0px solid white;
       background-color: #e8faf6;
-      font-family: "Open Sans", sans-serif;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+      font-family: 'Open Sans', sans-serif;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 textarea {
@@ -306,7 +302,7 @@ textarea {
 }
 
 .submitbtn {
-      background-color: #006E9E;
+      background-color: #006e9e;
       color: #dee8e9;
       text-decoration: none;
       padding: 10px 20px;
@@ -315,7 +311,7 @@ textarea {
       border-radius: 10px;
       border: none;
       outline: none;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .submitbtn:hover {
@@ -343,7 +339,6 @@ footer h3 span {
       color: #2c3e50;
 }
 
-
 @media screen and (max-width: 1200px) {
       .column2 {
             padding: 0px 20px;
@@ -360,7 +355,6 @@ footer h3 span {
 }
 
 @media screen and (max-width: 768px) {
-
       .social-links {
             display: flex;
             justify-content: center;
@@ -376,7 +370,7 @@ footer h3 span {
 
       .image-container img {
             height: 150px;
-            width: 150px
+            width: 150px;
       }
 
       .main__blockquote {

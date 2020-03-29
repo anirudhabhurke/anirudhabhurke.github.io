@@ -1,114 +1,114 @@
 {
-    "dir": "ltr",
-    "lang": "en",
-    "name": "Anirudha Bhurke",
-    "scope": "/",
-    "display": "standalone",
-    "start_url": "https://anirudhabhurke.github.io/",
-    "short_name": "Anirudha",
-    "theme_color": "transparent",
-    "description": "My Portfolio website.",
-    "orientation": "portrait",
-    "background_color": "transparent",
-    "related_applications": [],
-    "prefer_related_applications": false,
-    "icons": [
-        {
-            "src": "/assets/images/809b97d6-26fa-5b43-21b9-54844af84d3e.webPlatform.png",
-            "sizes": "44x44",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/c36a6fe8-ea93-69cb-9e0a-bac00bd7dccd.webPlatform.png",
-            "sizes": "48x48",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/e5cac984-9ae5-c887-fa84-bf552104286e.webPlatform.png",
-            "sizes": "1240x600",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/f58c3f68-9ea6-135e-a6ec-1939c6f93f30.webPlatform.png",
-            "sizes": "300x300",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/b99b4251-aa3b-7265-7d7e-5481ec243f7c.webPlatform.png",
-            "sizes": "150x150",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/eaa79199-6f0c-150c-3e71-bed2600c4b49.webPlatform.png",
-            "sizes": "88x88",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/95680a7f-52b3-43f5-47fa-c9d1356f9024.webPlatform.png",
-            "sizes": "24x24",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/414ad5a6-5947-96d7-b2f4-2d14544fd9aa.webPlatform.png",
-            "sizes": "50x50",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/c5a09706-6122-fb5f-396a-ba89afddc358.webPlatform.png",
-            "sizes": "620x300",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/1297d172-be44-98a0-93ca-3b1ca5d41d93.webPlatform.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/c2451916-2156-7261-9cc0-8569f934591c.webPlatform.png",
-            "sizes": "144x144",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/85de744f-14d6-8dc7-64a0-69f0efa9d7c2.webPlatform.png",
-            "sizes": "96x96",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/ba68d4d4-010f-e930-588b-0d9877463dca.webPlatform.png",
-            "sizes": "72x72",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/5d6ed4fa-2d02-b1db-3402-f294db8b7e8a.webPlatform.png",
-            "sizes": "36x36",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/738b042a-74e5-e458-1ebe-d9d67695e6ba.webPlatform.png",
-            "sizes": "1024x1024",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/6d29f809-6288-fb01-92ae-a3207915efe8.webPlatform.png",
-            "sizes": "180x180",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/68637a5a-12a1-5bb2-1e82-f4c554020d3b.webPlatform.png",
-            "sizes": "152x152",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/dadcf0df-04fc-30fb-dd2f-7f4c8ad30d1d.webPlatform.png",
-            "sizes": "120x120",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/e99ed8af-713f-a3e2-b1a3-5b6b623308e3.webPlatform.png",
-            "sizes": "76x76",
-            "type": "image/png"
-        }
-    ],
-    "url": "https://anirudhabhurke.github.io/",
-    "screenshots": []
+      "dir": "ltr",
+      "lang": "en",
+      "name": "Anirudha Bhurke",
+      "scope": "/",
+      "display": "standalone",
+      "start_url": "https://anirudhabhurke.github.io/",
+      "short_name": "Anirudha",
+      "theme_color": "transparent",
+      "description": "My Portfolio website.",
+      "orientation": "portrait",
+      "background_color": "transparent",
+      "related_applications": [],
+      "prefer_related_applications": false,
+      "icons": [
+            {
+                  "src": "/assets/icons/809b97d6-26fa-5b43-21b9-54844af84d3e.webPlatform.png",
+                  "sizes": "44x44",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/c36a6fe8-ea93-69cb-9e0a-bac00bd7dccd.webPlatform.png",
+                  "sizes": "48x48",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/e5cac984-9ae5-c887-fa84-bf552104286e.webPlatform.png",
+                  "sizes": "1240x600",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/f58c3f68-9ea6-135e-a6ec-1939c6f93f30.webPlatform.png",
+                  "sizes": "300x300",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/b99b4251-aa3b-7265-7d7e-5481ec243f7c.webPlatform.png",
+                  "sizes": "150x150",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/eaa79199-6f0c-150c-3e71-bed2600c4b49.webPlatform.png",
+                  "sizes": "88x88",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/95680a7f-52b3-43f5-47fa-c9d1356f9024.webPlatform.png",
+                  "sizes": "24x24",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/414ad5a6-5947-96d7-b2f4-2d14544fd9aa.webPlatform.png",
+                  "sizes": "50x50",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/c5a09706-6122-fb5f-396a-ba89afddc358.webPlatform.png",
+                  "sizes": "620x300",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/1297d172-be44-98a0-93ca-3b1ca5d41d93.webPlatform.png",
+                  "sizes": "192x192",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/c2451916-2156-7261-9cc0-8569f934591c.webPlatform.png",
+                  "sizes": "144x144",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/85de744f-14d6-8dc7-64a0-69f0efa9d7c2.webPlatform.png",
+                  "sizes": "96x96",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/ba68d4d4-010f-e930-588b-0d9877463dca.webPlatform.png",
+                  "sizes": "72x72",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/5d6ed4fa-2d02-b1db-3402-f294db8b7e8a.webPlatform.png",
+                  "sizes": "36x36",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/738b042a-74e5-e458-1ebe-d9d67695e6ba.webPlatform.png",
+                  "sizes": "1024x1024",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/6d29f809-6288-fb01-92ae-a3207915efe8.webPlatform.png",
+                  "sizes": "180x180",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/68637a5a-12a1-5bb2-1e82-f4c554020d3b.webPlatform.png",
+                  "sizes": "152x152",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/dadcf0df-04fc-30fb-dd2f-7f4c8ad30d1d.webPlatform.png",
+                  "sizes": "120x120",
+                  "type": "image/png"
+            },
+            {
+                  "src": "/assets/icons/e99ed8af-713f-a3e2-b1a3-5b6b623308e3.webPlatform.png",
+                  "sizes": "76x76",
+                  "type": "image/png"
+            }
+      ],
+      "url": "https://anirudhabhurke.github.io/",
+      "screenshots": []
 }
