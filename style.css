@@ -328,6 +328,17 @@ textarea {
       outline: none;
       background-color: rgba(234, 240, 241, 0.1);
 }
+.visit-link {
+      text-decoration: none;
+      padding: 3px 18px;
+      margin: 0px 10px;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      outline: none;
+      border: 2px solid rgba(41, 82, 216, 0.9);
+      color: rgba(41, 82, 216, 1);
+}
 
 footer {
       text-align: center;
@@ -389,7 +400,7 @@ footer h3 span {
       }
 
       .work-row {
-            height: 22em;
+            height: 25em;
             flex-direction: column;
       }
 
@@ -457,6 +468,6 @@ footer h3 span {
       }
 
       .work-row {
-            height: 18em;
+            height: 22em;
       }
 }
