@@ -6,18 +6,24 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
             <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+            <link
+                  rel="stylesheet"
+                  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+                  crossorigin="anonymous"
+            />
             <link rel="stylesheet" href="style.css" />
             <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
             <link rel="manifest" href="/manifest.json" />
             <title>Anirudha Bhurke</title>
       </head>
       <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-            <div class="container">
+            <div class="body-container">
                   <div id="particles-js"></div>
                   <div class="main-content">
                         <div class="hero-caption">
-                              <h1 class="title-name">Anirudha Bhurke</h1>
-                              <h3 class="subtitle">Full-stack Mobile & Web Developer...</h3>
+                              <h1 class="title-name font-weight-normal">Anirudha Bhurke</h1>
+                              <h3 class="subtitle font-weight-normal">Full-stack Mobile & Web Developer...</h3>
                               <button class="git-btn" onclick="window.open('https://github.com/anirudhabhurke', '_blank')">
                                     <i class="fa-github fa"></i>Github
                               </button>
@@ -32,7 +38,7 @@
                         <div class="image-container">
                               <img src="/assets//img/profile-image.jpg" alt="Hero Image" />
                         </div>
-                        <a href="#section2" class="down-btn"><img src="/assets/img/downBtn.png" alt="" /></a>
+                        <a href="#section2" class="down-btn"><img src="/assets/img/downBtn.png" alt="down-btn" /></a>
                   </div>
                   <blockquote class="main__blockquote" id="section2">
                         <p>
@@ -43,147 +49,163 @@
                   </blockquote>
                   <div class="separator">My Expertise</div>
                   <div class="skills-container">
-                        <div class="card-container">
-                              <div class="icon-container" style="background-color: #e0995e;">
-                                    <img src="/assets//img/mobile-icon.png" alt="Mobile App Development" />
-                              </div>
-                              <div class="text-container">
-                                    <h5 style="font-weight: bold;">Mobile Apps</h5>
-                                    <h6>React Native, Java</h6>
-                              </div>
-                        </div>
-                        <div class="card-container">
-                              <div class="icon-container" style="background-color: #76c2af;">
-                                    <img src="/assets//img/desktop-icon.png" alt="Desktop App Development" />
-                              </div>
-                              <div class="text-container">
-                                    <h5 style="font-weight: bold;">Desktop Apps</h5>
-                                    <h6>ElectronJS</h6>
+                        <div class="card card-container m-3 py-4 text-center">
+                              <img
+                                    src="/assets/img/mobile-icon.png"
+                                    alt="Mobile App Development"
+                                    class="card-img-top mx-auto skill-image"
+                              />
+                              <div class="card-body">
+                                    <h5 class="card-title">Mobile Apps</h5>
+                                    <p class="card-text">
+                                          Cross-platform apps in React Native and native apps using Kotlin
+                                    </p>
                               </div>
                         </div>
-                        <div class="card-container">
-                              <div class="icon-container" style="background-color: #2475b0;">
-                                    <img src="/assets//img/full-stack-icon.png" alt="Full Stack Development" />
-                              </div>
-                              <div class="text-container">
-                                    <h5 style="font-weight: bold;">Full Stack JS</h5>
-                                    <h6>MERN</h6>
-                              </div>
-                        </div>
-                        <div class="card-container">
-                              <div class="icon-container" style="background-color: #4f5d73;">
-                                    <img src="/assets//img/marketing-icon.png" alt="Digital Marketing" />
-                              </div>
-                              <div class="text-container">
-                                    <h5 style="font-weight: bold;">Digital Marketing</h5>
-                                    <h6>SEO, Facebook Ads</h6>
+                        <div class="card card-container m-3 py-4 text-center">
+                              <img
+                                    src="/assets/img/full-stack-icon.png"
+                                    alt="Full Stack Development"
+                                    class="card-img-top mx-auto skill-image"
+                              />
+                              <div class="card-body">
+                                    <h5 class="card-title">Full Stack</h5>
+                                    <p class="card-text">
+                                          Mongodb, Expressjs, Node and React + TypeScript
+                                    </p>
                               </div>
                         </div>
-                        <div class="card-container">
-                              <div class="icon-container" style="background-color: #c75c5c;">
-                                    <img src="/assets//img/blogging-icon.png" alt="Blogging" />
+                        <div class="card card-container m-3 py-4 text-center">
+                              <img src="/assets/img/marketing-icon.png" alt="Digital Marketing" class="card-img-top mx-auto skill-image" />
+                              <div class="card-body">
+                                    <h5 class="card-title">Digital Marketing</h5>
+                                    <p class="card-text">
+                                          SEO, Facebook Ads
+                                    </p>
                               </div>
-                              <div class="text-container">
-                                    <h5 style="font-weight: bold;">Blogging</h5>
-                                    <h6>Tech articles</h6>
+                        </div>
+                        <div class="card card-container m-3 py-4 text-center">
+                              <img src="/assets/img/blogging-icon.png" alt="Blogging" class="card-img-top mx-auto skill-image" />
+                              <div class="card-body">
+                                    <h5 class="card-title">Blogging</h5>
+                                    <p class="card-text">
+                                          Writing and getting information about current technologies
+                                    </p>
                               </div>
                         </div>
                   </div>
                   <div class="separator">My Work</div>
-                  <div class="work-container">
-                        <div class="work-row">
-                              <div class="column1">
-                                    <img
-                                          src="/assets/img/privacyflake-screenshot.png"
-                                          alt="privacyflake-screenshot"
-                                          style="height: 100%; border-radius: 05px;"
-                                          class="zoom"
-                                    />
-                              </div>
-                              <div class="column2">
-                                    <img
-                                          src="/assets/img/privacyflake-icon.png"
-                                          alt="privacyflake-icon"
-                                          style="width: 96px; border-radius: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);"
-                                    />
-                                    <h1 class="column__title">Privacyflake.com</h1>
-                                    <h1 class="column__content">A blog to help understand tech that affects your privacy</h1>
-                                    <a href="https://privacyflake.com" target="_blank" class="visit-link">Visit</a>
-                              </div>
-                        </div>
-                        <div class="work-row">
-                              <div class="column2">
-                                    <img
-                                          src="/assets/img/workouts-icon.png"
-                                          alt="gymclient-icon"
-                                          style="
-                                                width: 96px;
-                                                border-radius: 15px;
-                                                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-                                                background-color: #fff;
-                                          "
-                                    />
-                                    <h1 class="column__title">Workouts Tracker</h1>
-                                    <h1 class="column__content">My work for a client app challenge</h1>
-                                    <a href="https://github.com/anirudhabhurke/gymclient" target="_blank" class="visit-link">Github</a>
-                              </div>
-                              <div class="column1">
-                                    <img
-                                          src="/assets/img/workouts-screenshot.png"
-                                          alt="lucidtasks-screenshot"
-                                          style="height: 100%; border-radius: 05px;"
-                                          class="zoom"
-                                    />
+                  <div class="container">
+                        <!-- note: 1 -->
+                        <div class="card m-2 my-5">
+                              <div class="row no-gutters">
+                                    <div class="col-md-6">
+                                          <img
+                                                src="/assets/img/privacyflake-screenshot.png"
+                                                class="card-img"
+                                                alt="privacyflake-screenshot"
+                                          />
+                                    </div>
+                                    <div class="col-md-6 d-flex align-items-center">
+                                          <div class="card-body text-center">
+                                                <img
+                                                      src="/assets/img/privacyflake-icon.png"
+                                                      alt="privacyflake-icon"
+                                                      style="width: 96px; border-radius: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);"
+                                                />
+                                                <h2 class="card-title mt-3">Privacyflake</h2>
+                                                <h4 class="font-weight-normal">
+                                                      A blog to help understand tech that affects your privacy
+                                                </h4>
+                                                <a
+                                                      href="https://privacyflake.com"
+                                                      target="_blank"
+                                                      class="visit-link btn btn-outline-primary mt-2"
+                                                      >Visit</a
+                                                >
+                                          </div>
+                                    </div>
                               </div>
                         </div>
-                        <div class="work-row">
-                              <div class="column1">
-                                    <img
-                                          src="/assets/img/lucidtasks-frame.png"
-                                          alt="lucidtasks-screenshot"
-                                          style="height: 100%; border-radius: 05px;"
-                                          class="zoom"
-                                    />
-                              </div>
-                              <div class="column2">
-                                    <img
-                                          src="/assets/img/lucidtasks-icon.png"
-                                          alt="lucidtasks-icon"
-                                          style="width: 96px; border-radius: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);"
-                                    />
-                                    <h1 class="column__title">Lucid Tasks</h1>
-                                    <h1 class="column__content">A simple and beautiful todo app</h1>
-                                    <a
-                                          href="https://play.google.com/store/apps/details?id=com.lucidtasks"
-                                          target="_blank"
-                                          class="visit-link"
-                                          >Google Play</a
-                                    >
+                        <!-- note 2 -->
+                        <div class="card m-2 my-5">
+                              <div class="row no-gutters inverseCard">
+                                    <div class="col-md-6 d-flex align-items-center">
+                                          <div class="card-body text-center">
+                                                <img
+                                                      src="/assets/img/workouts-icon.png"
+                                                      alt="workouts-icon"
+                                                      style="width: 96px; border-radius: 50%; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);"
+                                                />
+                                                <h2 class="card-title mt-3">Workouts Tracker</h2>
+                                                <h4 class="font-weight-normal">
+                                                      My work for a client app challenge
+                                                </h4>
+                                                <a
+                                                      href="https://github.com/anirudhabhurke/gymclient"
+                                                      target="_blank"
+                                                      class="visit-link btn btn-outline-primary mt-2"
+                                                      >Github</a
+                                                >
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                          <img src="/assets/img/workouts-screenshot.png" class="card-img" alt="workout-screenshot" />
+                                    </div>
                               </div>
                         </div>
-                        <div class="work-row">
-                              <div class="column2">
-                                    <img
-                                          src="/assets/img/squaretaprush-icon.png"
-                                          alt="squaretaprush-icon"
-                                          style="width: 96px; border-radius: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);"
-                                    />
-                                    <h1 class="column__title">Square Tap Rush</h1>
-                                    <h1 class="column__content">A simple minimal game</h1>
-                                    <a
-                                          href="https://play.google.com/store/apps/details?id=com.squaretaprush"
-                                          target="_blank"
-                                          class="visit-link"
-                                          >Google Play</a
-                                    >
+                        <!-- note 3 -->
+                        <div class="card m-2 my-5">
+                              <div class="row no-gutters">
+                                    <div class="col-md-6">
+                                          <img src="/assets/img/lucidtasks-frame.png" class="card-img" alt="lucidtasks-screenshot" />
+                                    </div>
+                                    <div class="col-md-6 d-flex align-items-center">
+                                          <div class="card-body text-center">
+                                                <img
+                                                      src="/assets/img/lucidtasks-icon.png"
+                                                      alt="lucidtasks-icon"
+                                                      style="width: 96px; border-radius: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);"
+                                                />
+                                                <h2 class="card-title mt-3">Lucid Tasks</h2>
+                                                <h4 class="font-weight-normal">
+                                                      A simple and beautiful todo app
+                                                </h4>
+                                                <a
+                                                      href="https://play.google.com/store/apps/details?id=com.lucidtasks"
+                                                      target="_blank"
+                                                      class="visit-link btn btn-outline-primary mt-2"
+                                                      >Google Play</a
+                                                >
+                                          </div>
+                                    </div>
                               </div>
-                              <div class="column1">
-                                    <img
-                                          src="/assets/img/squaretaprush-frame.png"
-                                          alt="squaretaprush-screenshot"
-                                          style="height: 100%; border-radius: 05px;"
-                                          class="zoom"
-                                    />
+                        </div>
+                        <!-- note 4 -->
+                        <div class="card m-2 my-5">
+                              <div class="row no-gutters inverseCard">
+                                    <div class="col-md-6 d-flex align-items-center">
+                                          <div class="card-body text-center">
+                                                <img
+                                                      src="/assets/img/squaretaprush-icon.png"
+                                                      alt="squaretaprush-icon"
+                                                      style="width: 96px; border-radius: 15%; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);"
+                                                />
+                                                <h2 class="card-title mt-3">Square Tap Rush</h2>
+                                                <h4 class="font-weight-normal">
+                                                      My work for a client app challenge
+                                                </h4>
+                                                <a
+                                                      href="https://play.google.com/store/apps/details?id=com.squaretaprush"
+                                                      target="_blank"
+                                                      class="visit-link btn btn-outline-primary mt-2"
+                                                      >Google Play</a
+                                                >
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                          <img src="/assets/img/squaretaprush-frame.png" class="card-img" alt="workout-screenshot" />
+                                    </div>
                               </div>
                         </div>
                   </div>

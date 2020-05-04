@@ -3,14 +3,13 @@ html {
 }
 
 body {
-      background: #dee8e9;
       margin: 0;
       width: 100%;
       user-select: none;
       font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
+.body-container {
       position: relative;
 }
 
@@ -34,13 +33,13 @@ body {
 
 .title-name {
       font-size: 3em;
-      color: #dee8e9;
+      color: white;
       letter-spacing: 0.09em;
 }
 
 .subtitle {
       overflow: hidden;
-      color: #dee8e9;
+      color: white;
       border-right: 0.15em solid orange;
       white-space: nowrap;
       margin: 100 auto;
@@ -185,74 +184,16 @@ body {
 }
 
 .card-container {
-      border: 0px solid #bcaaa4;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      margin: 10px 40px 20px 40px;
-      text-align: center;
-      flex-wrap: wrap;
-      flex-basis: 10px;
-      border-radius: 15px;
-      box-shadow: 0px 1.6px 3.6px rgba(0, 0, 0, 0.13908558841119492), 0px 0px 2.9px rgba(0, 0, 0, 0.1176878055787034);
       transition: box-shadow 0.2s ease-in-out;
-      background-color: #e0e0e0;
+      box-shadow: 0px 0.8px 1.8px rgba(0, 0, 0, 0.13908558841119492), 0px 0px 2.9px rgba(0, 0, 0, 0.1176878055787034);
+      background-color: whitesmoke;
+      width: 14rem;
 }
 .card-container:hover {
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
-.icon-container {
-      width: 100%;
-      padding: 30px 10px;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-}
-
-.work-container {
-      margin-right: auto;
-      margin-left: auto;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-bottom: 20px;
-      width: 100%;
-}
-
-.work-row {
-      height: 25em;
-      display: flex;
-      width: 100%;
-      text-decoration: none;
-}
-
-.column1 {
-      height: 100%;
-      display: flex;
-      flex: 1;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      padding-top: 1%;
-      max-width: 100%;
-}
-
-.column2 {
-      height: 100%;
-      overflow: hidden;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-}
-
-.column__title {
-      font-size: 2.5em;
-      color: #2c3e50;
-}
-
-.column__content {
-      font-size: 1.5em;
+.skill-image {
+      width: 120px;
 }
 
 .down-btn {
@@ -291,9 +232,9 @@ textarea {
       resize: vertical;
       outline: none;
       border: 0px solid white;
-      background-color: #e8faf6;
+      background-color: whitesmoke;
       font-family: 'Open Sans', sans-serif;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 textarea {
@@ -310,7 +251,7 @@ textarea {
       border-radius: 10px;
       border: none;
       outline: none;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .submitbtn:hover {
@@ -339,6 +280,9 @@ textarea {
       border: 2px solid rgba(41, 82, 216, 0.9);
       color: rgba(41, 82, 216, 1);
 }
+.visit-link:hover {
+      background-color: rgba(41, 82, 216, 1);
+}
 
 footer {
       text-align: center;
@@ -350,17 +294,15 @@ footer h3 span {
 }
 
 @media screen and (max-width: 1200px) {
-      .column2 {
-            padding: 0px 20px;
-            margin: 10px 20px;
-      }
-
       .main-content {
             /* height: 32em; */
             flex-direction: column-reverse;
             justify-content: center;
             text-align: center;
             padding: 20px;
+      }
+      form {
+            width: 50%;
       }
 }
 
@@ -391,34 +333,9 @@ footer h3 span {
             font-size: 1.2em;
       }
 
-      .card-container {
-            margin: 10px 10px 10px 10px;
-      }
-      .card-container img {
-            height: 120px;
-            width: 120px;
-      }
-
-      .work-row {
-            height: 25em;
-            flex-direction: column;
-      }
-
-      .column1 {
-            display: none;
-      }
-
-      .column2 {
-            border-radius: 10px;
-            border: 3px solid #aabed1;
-      }
-
-      .column__title {
-            font-size: 2.2em;
-      }
-
-      .column__content {
-            font-size: 1.4em;
+      .inverseCard {
+            display: flex;
+            flex-direction: column-reverse;
       }
 
       form {
@@ -433,18 +350,6 @@ footer h3 span {
 
       .subtitle {
             font-size: 0.9em;
-      }
-
-      .column2 {
-            padding: 0px 10px;
-      }
-
-      .column__title {
-            font-size: 1.5em;
-      }
-
-      .column__content {
-            font-size: 1em;
       }
 
       .main-content #particles-js {
@@ -465,9 +370,5 @@ footer h3 span {
 
       .contact-link {
             font-size: 16px;
-      }
-
-      .work-row {
-            height: 22em;
       }
 }
