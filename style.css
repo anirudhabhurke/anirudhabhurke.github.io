@@ -270,7 +270,10 @@ textarea {
       border: 2px solid var(--accent-color);
       color: var(--accent-color);
 }
-.visit-link:hover {
+.visit-link:hover,
+.visit-link:focus,
+.visit-link:active {
+      color: white;
       background-color: var(--accent-color);
       border-color: var(--accent-color);
 }
