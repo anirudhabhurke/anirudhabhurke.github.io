@@ -127,12 +127,19 @@ body {
 .fa-instagram {
       background: #125688;
 }
+.fa-angle-down {
+      font-size: 80px;
+}
+.downBtn {
+      position: absolute;
+      bottom: 10px;
+}
 
 .main__blockquote {
       width: 60%;
       font-size: 1.2em;
       font-style: italic;
-      margin: 30px auto 10px;
+      margin: 10px auto 20px;
       padding: 25px;
       border: 1px solid var(--accent-color);
       box-sizing: border-box;
@@ -163,6 +170,7 @@ body {
       font-size: 1.5em;
       color: var(--dark-accent);
       margin-bottom: 10px;
+      margin-top: 10px;
 }
 
 .separator::before,
